@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import CharacterList from './CharacterList';
 import WelcomePage from './WelcomePage';
 import LocationsList from './LocationsList';
-import EpsiodesList from './EpisodesList';
+import EpisodesList from './EpisodesList';
 
 export default function AppRouter() {
     return (

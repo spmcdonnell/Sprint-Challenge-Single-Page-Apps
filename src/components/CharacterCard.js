@@ -1,6 +1,18 @@
 import React from 'react';
 
-import style from './character-card.module.css';
+import styled from 'styled-components';
+
+const CardDiv = styled.div`
+    background-color: whitesmoke;
+    padding: 2%;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+`;
+
+const CharImg = styled.img`
+    width: 100%;
+`;
 
 export default function CharacterCard({ character }) {
     const { image, name, species, status, location, origin } = character;
